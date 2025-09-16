@@ -1,9 +1,9 @@
 #!/bin/bash
 apt install jq curl -y
-DOMAIN=srssh.sbs
+DOMAIN=pqssh.sbs
 sub=$(cat /root/subdomainx)
-dns=${sub}.srssh.sbs
-dns2=*.${sub}.srssh.sbs
+dns=${sub}.pqssh.sbs
+dns2=*.${sub}.pqssh.sbs
 CF_ID=resultaang@gmail.com
 CF_KEY=155ee4897955b2006f1c50c015606aaaeeef9
 set -euo pipefail
@@ -42,10 +42,10 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 echo $dns > /root/domain
 echo "$dns" > /etc/xray/domain
 apt install jq curl -y
-DOMAIN=srssh.sbs
+DOMAIN=pqssh.sbs
 sub=$(cat /root/subdomainx)
-dns=${sub}.srssh.sbs
-dns2=*.${sub}.srssh.sbs
+dns=${sub}.pqssh.sbs
+dns2=*.${sub}.pqssh.sbs
 CF_ID=resultaang@gmail.com
 CF_KEY=155ee4897955b2006f1c50c015606aaaeeef9
 set -euo pipefail
