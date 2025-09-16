@@ -41,7 +41,6 @@ RESULT=$(curl -sLX PUT "https://api.cloudflare.com/client/v4/zones/${ZONE}/dns_r
 --data '{"type":"A","name":"'${dns2}'","content":"'${IP}'","ttl":120,"proxied":false}')
 echo $dns > /root/domain
 echo "$dns" > /etc/xray/domain
-echo "$dn!MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 DOMAIN=pqssh.sbs
 sub=$(cat /root/subdomainx)
