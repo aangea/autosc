@@ -56,10 +56,10 @@ echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
 tput cnorm
 }
 sldns() {
-wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/slowdns/ && chmod +x installsl.sh && ./installsl.sh
+wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 }
 res1() {
-wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/slowdns/ && chmod +x rmbl.sh && ./rmbl.sh
+wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/rmbl.sh && chmod +x rmbl.sh && ./rmbl.sh
 clear
 }
 res2() {

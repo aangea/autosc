@@ -296,15 +296,15 @@ wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/rmb
 clear
 }
 res2() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r1.sh && chmod +x cr1.sh && ./per1.sh
+wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/r1.sh && chmod +x cr1.sh && ./per1.sh
 clear
 }
 res3() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/c2.sh && chmod +x c2.sh && ./cr2.sh
+wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/r2.sh && chmod +x c2.sh && ./cr2.sh
 clear
 }
 res4() {
-wget https://raw.githubusercontent.com/RMBL-VPN/v1/main/install/r3.sh && chmod +x r3.sh && ./r3.sh
+wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/r3.sh && chmod +x r3.sh && ./r3.sh
 clear
 }
 clear
