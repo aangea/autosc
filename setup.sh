@@ -1,5 +1,17 @@
 #!/bin/bash
-
+function CEKIP () {
+ipsaya=$(wget -qO- ipv4.icanhazip.com)
+MYIP=$(curl -sS ipv4.icanhazip.com)
+IPVPS=$(curl -sS ipv4.icanhazip.com)
+if [[ $MYIP == $IPVPS ]]; then
+domain
+Casper2
+else
+  key2
+  domain
+  Casper2
+fi
+}
 clear
 red='\e[1;31m'
 green='\e[0;32m'
@@ -361,7 +373,7 @@ echo -e "${BIBlue}╭═══════════════════�
 echo -e "${BIBlue}│ \033[1;37mPlease select a your Choice to Set Domain${BIBlue}│${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e "${BIBlue}│  [ 1 ]  \033[1;37mDomain xxx.det.my.id          ${NC}"                                        
+echo -e "${BIBlue}│  [ 1 ]  \033[1;37mDomain xxx.test.id          ${NC}"                                        
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 until [[ $domain2 =~ ^[1-5]+$ ]]; do 
 read -p "   Please select numbers 1 sampai 1 : " domain2
@@ -727,7 +739,7 @@ TEXT="
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
 }
-
+CEKIP
 Casper3
 cat> /root/.profile << END
 if [ "$BASH" ]; then
