@@ -373,7 +373,10 @@ echo -e "${BIBlue}╭═══════════════════�
 echo -e "${BIBlue}│ \033[1;37mPlease select a your Choice to Set Domain${BIBlue}│${NC}"
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 echo -e "${BIBlue}╭══════════════════════════════════════════╮${NC}"
-echo -e "${BIBlue}│  [ 1 ]  \033[1;37mDomain xxx.test.id          ${NC}"                                        
+echo -e "${BIBlue}│  [ 1 ]  \033[1;37mDomain xxx.srssh.sbs          ${NC}"                                        
+echo -e "${BIBlue}│  [ 2 ]  \033[1;37mDomain xxx.elssh.sbs          ${NC}"                                        
+echo -e "${BIBlue}│  [ 3 ]  \033[1;37mDomain xxx.pqssh.sbs          ${NC}"                                        
+echo -e "${BIBlue}│  [ 4 ]  \033[1;37mDomain xxx.hnssh.sbs          ${NC}"                                        
 echo -e "${BIBlue}╰══════════════════════════════════════════╯${NC}"
 until [[ $domain2 =~ ^[1-5]+$ ]]; do 
 read -p "   Please select numbers 1 sampai 1 : " domain2
