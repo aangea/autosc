@@ -308,11 +308,11 @@ wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/rmb
 clear
 }
 res2() {
-wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/r1.sh && chmod +x r1.sh && ./per1.sh
+wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/r1.sh && chmod +x r1.sh && ./r1.sh
 clear
 }
 res3() {
-wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/r2.sh && chmod +x r2.sh && ./cr2.sh
+wget https://raw.githubusercontent.com/aangea/autosc/refs/heads/main/install/r2.sh && chmod +x r2.sh && ./r2.sh
 clear
 }
 res4() {
